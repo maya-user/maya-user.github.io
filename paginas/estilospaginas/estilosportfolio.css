@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: black;
+	
+}
+
+.portfolio{
+	background-image: url(../imagenes/bruma.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 15vh;
+}
+
+.portfolio p{
+	position: relative;
+	top:1em;
+	
+	font-size: 2em;
+	color: white;
+	padding-left: 10%;
+	float:left;
+	opacity:.8;
+
+	
+	font-weight: 400;
+}
+	.fotos{
+		display: grid;
+		/*grid-template-columns: repeat(9, 1fr);*/
+		/*grid-template-columns: repeat(auto-fill,minmax(200px,1fr));*/
+		
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 1em;
+		grid-auto-rows: minmax(100px auto);
+		/* para alinear o acomodar los objetos dentro de la grid
+		justify-items: start;
+		align-items: start;*/
+
+
+	}
+
+	.fotos img{
+		width:100%;
+		height: 200px;
+		object-fit: cover;
+		/*objet fit es para ajustar imaganes al contenedor sin que
+		 se deformen*/
+
+	}
+
+	
+/*	.fotos img:nth-child(1n){
+		grid-column:span 3;
+	}
+
+	.fotos img:nth-child(2n){
+		grid-area: span 2/span 2;
+	}
+
+	.fotos img:nth-child(3n){
+		grid-area: span 3/span 3;
+	}*/
+

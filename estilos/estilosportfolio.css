@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.aboutme{
+	background-image: url(../catalogo/bruma.jpg);
+	background-size: cover;
+	height: 25vh;
+}
+
+.portafolio p{
+	position: relative;
+	top: 1.5em;
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+	padding-left: 10%;
+	float:left;
+	opacity:.8;
+	
+	font-weight: 400;

@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: black;
+}
+
+.contact{
+	background-image: url(../imagenes/bruma.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 15vh;
+}
+
+.contact p{
+	position: relative;
+	top: 1em;
+	font-size: 2em;
+	color: white;
+	padding-left: 10%;
+	float:left;
+	opacity:.8;
+	
+	font-weight: 400;

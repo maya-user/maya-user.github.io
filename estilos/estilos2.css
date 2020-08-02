@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.portada {
+	background-image: url(../catalogo/bruma.jpg);
+
+	background-size: cover;
+	background-position: top;
+	height:100vh;
+
+	}
+
+	.name{
+	display:grid;
+	grid-template-rows: 30vh;
+	justify-items: center;
+	align-items: center;
+	font-size: 2.5em;
+	color: white;
+	
+	opacity: .8;*/
+}
+
+	.enlaces {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 40vh;
+		color:white;
+		justify-items: center;
+		align-items: center;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		letter-spacing: 3px;
+		
+
+
+		
+	}
+	.enlaces a{
+		text-decoration: none;
+		color:white;
+		
+	}
+	a:hover {
+	border:solid 1px white;
+	border-radius: 5px;
+	padding: 1em;
+	
+
+}
+	/*.name p{
+	grid-area: span 1/span 3;
+	font-size: 2.5em;
+	color: white;
+	justify-itself:center;
+	font-weight: 400;
+	opacity: .8;*/
+	
+	
+
+/*}
+nav ul{
+	text-align: center;
+
+}
+nav li{
+	display: inline-block;
+	position: relative;
+	top: 4em;
+	margin:10%;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	
+
+}
+
+nav li a{
+	text-decoration: none;
+	color:white;
+}
+
+ nav a:hover {
+	border:solid 1px white;
+	border-radius: 5px;
+	padding: 1em;
+}*/

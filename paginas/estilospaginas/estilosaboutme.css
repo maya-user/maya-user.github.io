@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+.aboutme{
+	background-image: url(../imagenes/bruma.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 15vh;
+}
+
+.aboutme p{
+	position: relative;
+	top: 1em;
+	font-size: 2em;
+	color: white;
+	padding-left: 10%;
+	float:left;
+	opacity:.8;
+	
+	font-weight: 400;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  margin: 2em auto;
+  padding-top: 2em;
+  grid-gap: 2em;
+  color:white; 
+   
+ 
+}
+
+.autoretrato{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	opacity: .7;
+	
+}
+
+.autoretrato img{
+
+	max-width: 100%;
+	padding: 0 3em;
+
+}	
+
+.historia{
+	
+	grid-column-start: 2;
+	grid-column-end: 2;
+	
+}
+
+.historia  h2, p{
+	text-align: center;
+	padding: 0 3em;
+
+}
+
+
+
